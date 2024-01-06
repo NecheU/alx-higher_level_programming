@@ -7,6 +7,4 @@ Defines class Rectangle.
 
 class Rectangle:
     """Defines an empty rectangle"""
-    
-
     pass
