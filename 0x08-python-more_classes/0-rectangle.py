@@ -1,7 +1,7 @@
 #!usr/bin/python3
 ""
-Rectangle module.
-Defines a rectangle.
+Rectangle 0-module.
+Defines class Rectangle.
 ""
 
 
