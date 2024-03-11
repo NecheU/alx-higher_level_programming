@@ -1,0 +1,4 @@
+#!/bin/bash
+#shell script that runs a python code
+export PYCODE="print('Python is fun')"
+python3 -c "$PYCODE"
