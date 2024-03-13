@@ -1,0 +1,8 @@
+#!/bin/bash
+if [ -z "$PYFILE" ]; then
+    echo "Error: PYFILE env var not set."
+    exit(1) 
+f1
+python3 -m py_compile "$PYFILE"
+output_file="{$PYFILE}c"
+echo "Python script file successfully compiled"
