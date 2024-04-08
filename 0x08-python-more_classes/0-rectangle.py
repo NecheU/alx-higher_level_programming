@@ -1,6 +1,7 @@
 #!/usr/bin/python3
-"""An empty Rectangle class.
-"""
 class Rectangle:
-    """An Empty Rectangle class"""
+    """An Empty Rectangle clas
+    Args:
+        It has no arguemnt
+    """
     pass
