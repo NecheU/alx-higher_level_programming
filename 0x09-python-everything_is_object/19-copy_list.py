@@ -1,2 +1,2 @@
 def copy_list(l):
-    return l[:]
+    return [item for item in l]
