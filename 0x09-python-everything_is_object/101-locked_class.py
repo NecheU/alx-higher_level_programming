@@ -1,6 +1,6 @@
 #!/usr/bin/python3
-def LockedClass:
-    __slot__ = ("first_name",)
+class LockedClass:
+    __slot__ = ("first_name")
 
-    def __init__(self, first_nme):
+    def __init__(self, first_name):
         self.first_name = first_name
