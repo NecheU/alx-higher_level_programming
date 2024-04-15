@@ -12,8 +12,7 @@ Raise:
 
 
 def add_attribute(object, name, value):
-    if isinstance(object, str):
-        raise TypeError("can't add a new attribute")
-    setattr(object, name, value)
-    if not hasattr(object, name):
-        raise TypeError("can't add a new attribute")
+    if hasattr(object, '__dict__'):
+        object.__dict__[name] = value
+    else:
+        raise TypeError("can't add new attribute")
