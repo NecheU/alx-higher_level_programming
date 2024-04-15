@@ -13,7 +13,7 @@ Raise:
 
 def add_attribute(object, name, value):
     if isinstance(object, str):
-        raise TypeError("can't add a new attribute to a string object")
+        raise TypeError("can't add a new attribute")
 
     setattr(object, name, value)
     if not hasattr(object, name):
