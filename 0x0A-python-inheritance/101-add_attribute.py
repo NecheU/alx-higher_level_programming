@@ -12,6 +12,7 @@ Raise:
 
 
 def add_attribute(object, name, value):
+    """Function to add new attribute"""
     if hasattr(object, '__dict__'):
         object.__dict__[name] = value
     else:
