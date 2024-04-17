@@ -7,4 +7,4 @@ Concerting json strings to python
 import json
 def from_json_string(my_str):
     """Func to convert json to python"""
-    return json.load(my_str)
+    return json.loads(my_str)
