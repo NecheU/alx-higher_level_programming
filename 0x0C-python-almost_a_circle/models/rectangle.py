@@ -8,6 +8,7 @@ from class Base
 
 from models.base import Base
 
+
 class Rectangle(Base):
     """class Rectangle inheritting from Base"""
     def __init__(self, width, height, x=0, y=0, id=None):
@@ -82,4 +83,5 @@ class Rectangle(Base):
 
     def __str__(self):
         """String rep of the rectangle"""
-        return f"[Rectangle] ({self.id}) - x: {self.x}, y: {self.y}, width: {self.width}, height: {self.height}"
+         return (f"[Rectangle] ({self.id}) - x: {self.x}, y: {self.y}, "
+                 f"width: {self.width}, height: {self.height}")
